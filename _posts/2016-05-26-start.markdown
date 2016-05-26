@@ -1,0 +1,45 @@
+---
+published: true
+title: Start Genymotion Player from Command line
+layout: post
+---
+As of Genymotion 2.6.0 (Dec 2015), it appears they have moved the `player` executable to be `player.app`
+
+On OSX you can launch a desired VM like this:
+
+```
+# First, get a list of the VM's you have installed
+VBoxManage list vms
+
+# Returns something like "5.0.0 - API 21 - 768x1280" {091d022d-6a7b-4475-845f-7a6e06024fb6}
+```
+
+Copy the VM ID, e.g. 091d022d-6a7b-4475-845f-7a6e06024fb6, and then use it again like this:
+
+```
+# Launch a specific VM
+open -a /Applications/Genymotion.app/Contents/MacOS/player.app --args --vm-name '091d022d-6a7b-4475-845f-7a6e06024fb6'
+```
+
+**Bonus:**
+
+I used `alias` to start my player more handy:
+
+1. Add following line to `~/.bash_profile`:
+
+    ```
+    alias geny5="open -a /Applications/Genymotion.app/Contents/MacOS/player.app --args --vm-name '091d022d-6a7b-4475-845f-7a6e06024fb6'"
+    ```
+    I used `geny5` to determine that it's **Android 5.0**
+    
+1. Run `source` command to apply change.
+
+    ```
+    source ~/.bash_profile
+    ```
+    
+1. Start player:
+
+    ```
+    geny5
+    ```
