@@ -6,7 +6,7 @@ category: Genymotion
 tags: [ 'genymotion', 'android' ]
 ---
 
-I am very lazy. So, I am trying to use Keyboard to replace Mouse clicks as many as possible. But, open Genymotion player always take me a lot clicks. I am not happy with that.
+I am very lazy. So, I am trying to use Keyboard to replace Mouse clicks as many as possible. But, open Genymotion player always take me a lot of clicks. I am not happy with that.
 
 ## Professional way
 
