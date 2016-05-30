@@ -15,7 +15,8 @@ Cmd + Space (Spotlight) -> "Genymotion" -> (Wait a moment) click "play" button. 
 Not too much, right? But, like I said: "I am very lazy". So, I can not do that everyday.
 
 ## Lazy way
-### 1. Find the player's vmid
+
+### Find the player's vmid
 
 ```
 # First, get a list of the VM's you have installed
@@ -26,7 +27,7 @@ VBoxManage list vms
 
 Copy the VM ID, e.g. `091d022d-6a7b-4475-845f-7a6e06024fb6`
 
-### 2. Scripting
+### Scripting
 
 Create a shell script file: `geny5.sh` with the content below: 
 
@@ -35,9 +36,9 @@ Create a shell script file: `geny5.sh` with the content below:
 open -a /Applications/Genymotion.app/Contents/MacOS/player.app --args --vm-name '091d022d-6a7b-4475-845f-7a6e06024fb6'
 ```
 
-### 3. Use
+### Using
 
-My day was saved by the following command:
+My day was saved by the command below:
 
 ```
 sh [path to geny5.sh]
@@ -45,7 +46,7 @@ sh [path to geny5.sh]
 
 ## Lord of lazier way
 
-### 1. Alias
+### Alias
 
 Add following line to `~/.bash_profile`:
 
@@ -59,7 +60,7 @@ Run `source` command to apply change.
 source ~/.bash_profile
 ```
 
-### 2. Enjoy
+### Enjoy
     
 What's `geny5.sh`. I just `geny5` ^^.
 
@@ -68,4 +69,4 @@ geny5
 ```
 
 
-**Welcome to Lazier Group** 
+#### Congratulation! Welcome to Lazy Group 
