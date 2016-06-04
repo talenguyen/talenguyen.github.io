@@ -148,4 +148,6 @@ Tính toán cân bằng giữa số tiền cần chỉ ở các mục khác mà 
 Sống thì cũng nên biết hưởng thụ 1 tí. Mình không được lãng phí nhưng cũng không nên quá hà tiện. Vì vậy, nên dành ra 1 khoản để tự thưởng cho bản thân, nhằm khích lệ tinh thần, tạo động lực để có thể làm việc và cống hiến. 
 
 #### Mục đích:
-Thỏa mãn bản thân.
+- Thỏa mãn bản thân.
+
+- Tạo động lực
