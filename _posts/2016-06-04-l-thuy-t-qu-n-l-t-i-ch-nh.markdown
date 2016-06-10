@@ -1,3 +1,11 @@
+---
+layout: post
+section-type: post
+title: Lý thuyết quản lý tài chính
+category: Tài chính cá nhân
+tags: [ 'tai', 'chinh', '6jars', 'finance' ]
+---
+
 # Lý thuyết quản lý tài chính
 
 ## 1. Tiết kiệm lâu dài
