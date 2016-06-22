@@ -1,9 +1,14 @@
 ---
-published: true
-title: Git add & commit in one command
 layout: post
+section-type: post
+title: Git add & commit in one command
+category: Git
+tags: [ 'git', 'svc' ]
 ---
+
 I would like to share a small tip to commit your working code more quickly.
+
+## Problem
 
 Normally, when I want to commit my code I need at least `2 commands`:
 
@@ -12,11 +17,11 @@ Normally, when I want to commit my code I need at least `2 commands`:
 
 Now I found another way to archive the same result by just `1 command`
 
-### Create an alias
+## Create an alias
 
     git config --global alias.ac '!git add -A && git commit'
 
-### Usage
+## Usage
 
     git ac -m "message"
 
