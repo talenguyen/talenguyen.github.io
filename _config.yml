@@ -1,89 +1,31 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Permalinks
+permalink:      /:year-:month-:day/:title
 
-# Site settings
-title: Build the Future by code
-name: Giang Nguyen
-email: giangnguyen.tale@gmail.com
-location: Ho Chi Minh city, Vietnam
-company: Tiki.vn
-company_url: http://tiki.vn
-github_url: https://github.com/talenguyen
-description: Blog and website of Giang Nguyen, blogging mainly for tech. Opinions expressed are mine.
-favicon: favicon.png # Image must be in assets/images
+# Setup
+title:          Tale Nguyen
+paginate:       5
+baseurl:        ""
+url:            "https://talenguyen.github.io"
 
-# The base hostname & protocol for your site
-# For local test, please use http://localhost:4000
-# For production, use your github page url. ex. http://dongchuan.github.io
-url: http://talenguyen.github.io
-
-## Gem
-gems:
-  - jekyll-paginate
-  - jekyll-geo-pattern
-  - rouge
-  - kramdown
-  - jekyll-github-metadata
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
 
 # Build settings
-markdown: kramdown
-highlighter: rouge
-lsi:         false
-excerpt_separator: "\n\n"
+markdown:       kramdown
 
-source:      .
-destination: ./_site
+# About
+author:
+  name:         Giang Nguyen
+  url:          http://talenguyen.github.io
+  email:        giangnguyen.tale@gmail.com
 
-quiet:    false
-defaults: []
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/chesterhow/tale
 
-kramdown:
-  input: GFM
-  enable_coderay: true
-
-# Disque
-disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
-
-# Pagination
-paginate: 10
-paginate_path: 'page:num'
-
-# Navigation. If you do not like these modules, just remove them :D
-navs:
-  -
-    href: /
-    label: Home
-
-  -
-    href: /open-source
-    label: Open-Source
-
-  -
-    href: /blog
-    label: Blog
-
-  -
-    href: /bookmark
-    label: Bookmark
-
-  -
-    href: /about
-    label: About
-
-# Sidebar to show popular repo
-side_bar_repo_limit: 5 # Number of repos to show
-
-# Google Analytics
-analytics :
-  provider : google
-  google :
-      tracking_id : 'tracking_id'  # ex. UA-72165600-X
-
-
-# For about.html. Fell free to create your own!
-skill_software_keywords: [Java, Reactive Programming, SQLite, Design Patterns]
-skill_mobile_app_keywords: [Android, ReactNative]
+# Gems
+gems:
+  - jekyll-paginate
